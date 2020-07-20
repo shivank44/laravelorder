@@ -78,7 +78,7 @@
                     <div class="col-md-12">
                         <label for="order_id"><span class="text-danger">*</span> Order ID</label>
                         <div class="position-relative form-group">
-                            <input type="hidden" value="{{date('YmdHis')}}" name="order_date"/>
+                            <input type="hidden" value="{{date('Y-m-d H:i:s')}}" name="order_date" />
                             <input name="order_id"  placeholder="order_id" type="text" class="form-control" value="{{date('YmdHis')}}" readonly>
                         </div>
                     </div>
