@@ -43,7 +43,7 @@
                         <td>{{$i}}</td>
                         <td>{{$order->order_id}}</td>
                         <td>{{$order->customer_name}}</td>
-                        <td>{{$order->order_date}}</td>
+                        <td>{{date("d-m-Y",strtotime($order->order_date))}}</td>
                         <td>{{$order->status}}</td>
                         <td>{{$order->total}}</td>
                         <td>
